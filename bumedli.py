@@ -13,5 +13,3 @@ marci = Bumedli()
 
 print(marci.mango(11))
 print(marci.counter)
-
-proba = "gtihubos cumo"
