@@ -13,6 +13,3 @@ marci = Bumedli()
 
 print(marci.mango(11))
 print(marci.counter)
-
-for x in range(3):
-    print(33)
