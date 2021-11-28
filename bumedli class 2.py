@@ -1,14 +1,21 @@
 class Marci():
-    def __init__(self, pontok):
-        self.pontok = pontok
-    def pontiro(self, pontszam):
-        with open('marcipont.txt', 'w') as file:
-            file.write(pontszam)
-            file.close()
-            pass
-marci = Marci()
+ with open('marcipont.txt', 'w') as file:
+    file.write('0')
+    file.close()
+    pass
 
-print(marci.pontok)
+
+
+    # def __init__(self, pontok):
+    #     self.pontok = pontok
+    # def pontiro(self, pontszam):
+    #     with open('marcipont.txt', 'w') as file:
+    #         file.write(pontszam)
+    #         file.close()
+    #         pass
+#marci = Marci()
+
+
 
 
 
