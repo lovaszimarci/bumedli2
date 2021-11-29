@@ -1,3 +1,4 @@
+
 def marcipontszamado(szam):
     with open('marcipont.txt','r') as file:
         intek = file.read()
@@ -40,6 +41,11 @@ def zozipontok():
         file.close()
     print(f'Zoltán pontjai: {pontok}')
     pass
+
+marcipontszamado(2)
+print(marcipontok())
+
+
 
 
 # lepesek: 1 beolvassa a txt
